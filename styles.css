@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    align-items: center;
+    background-color: black;
+    width: 600px;
+    align-items: center;
+}
+i {
+    font-size: 30px;
+    padding: 5px
+}
+img {
+    width: 100%;
+    height: 500px;
+}
+.post {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+    border: 5px solid black;
+
+}
+.post-header {
+    margin: 0px 10px;
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post-body{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.post-account {
+    display: flex;
+    flex-direction: row;
+}
+.post-icons {
+    display: flex;
+    justify-content:space-between;
+}
