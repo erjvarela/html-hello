@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    font-family: "Roboto";
+    font-family: "Roboto", serif;
     align-items: center;
     background-color: black;
     width: 600px;
